@@ -1,0 +1,197 @@
+@media (min-width :1024px ){
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+}
+#left{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+ background-image: url(./image/listen-music-entertain-melody-harmony.jpg);   
+}
+
+#div-form{
+    margin:15vh auto ;
+    background-color:#7F4483;
+    width: 23vw;
+    height: 60vh;
+    border-radius: 30px; 
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #cbced1;   
+}
+#header{
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 30px; 
+    text-align: center;
+    
+    background-color: #7F4483;
+   padding-top: 5vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 66% ;
+}
+
+.inputs{
+    width:16vw ;
+    height: 6vh;
+    border-radius: 40px;
+    
+    margin-left: 3.5vw;
+    margin-top: 4vh ;
+    text-align: center;
+    padding-top: 1.3vh;
+    display: flex;
+    justify-content: center;
+    background: #fffdfd;
+box-shadow: inset 18px 18px 23px #a8a8a8,
+            inset -18px -18px 23px #ffffff;}
+input{   
+    width:12vw ;
+    height:4.5vh ;
+    border: none;
+    outline: none;
+    background: transparent;
+    
+}
+
+
+.svg-icon{
+    width: 1.3vw;
+    margin-right: 0.6vw;
+    margin-bottom: 1.4vh;
+
+}
+/*ب دکمه ترنزیشن رنگ یا هر چی دوس داری بده*/
+#btn-login{
+    width: 8vw;
+    height: 6vh;
+    border-radius: 30px;
+    border-style: none;
+    margin-top: 4vh;
+    margin-left: 7.5vw;
+    cursor: pointer;
+    box-shadow: inset 10px 10px 25px #a7a7a7e5,
+            inset -10px -10px 25px #fffbfb;
+}
+#btn-login:hover{
+   
+box-shadow: none;
+}
+
+a{
+    text-decoration: none;    
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#links{
+    margin-top: 2vh;
+    display: grid;
+    justify-content: center;
+text-align: center;
+}
+}
+
+@media(max-width:1023px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+    background-size: cover;
+    background-position: center;
+    background-image: url(./image/listen-music-entertain-melody-harmony.jpg);   
+    height: 100vh;
+    }
+    #div-form{
+        margin:15vh auto ;
+        background-color:rgba(174, 99, 168, 0.884);
+        width: 52vw;
+        height: 52vh;
+        border-radius: 30px; 
+        box-shadow: 13px 13px 17px #484a4dc9, -13px -13px 17px #484a4db5;   
+    }
+    .inputs{
+        width:34vw ;
+        height: 5vh;
+        border-radius: 40px;
+        margin: 4vh auto;
+       /* margin-left: 5vw;*/
+       /* margin-top: 4vh ;*/
+        /*text-align: center;*/
+        padding-top: 1.3vh;
+        display: flex;
+        justify-content: center;
+        /*background: #fffdfd;*/
+    box-shadow: inset 10px 10px 15px #ffffff,
+                inset -10px -10px 15px #ffffff;}
+    input{   
+        width:19vw ;
+        height:4.5vh ;
+        border: none;
+        outline: none;
+        background: transparent;
+        
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: black;
+        opacity: 1; /* Firefox */
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: black;
+      }
+      
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        color: black;
+      }
+    
+    .svg-icon{
+        width: 4vw;
+        margin-right: 2vw;
+        margin-bottom: 1.4vh;
+    
+    }
+    
+    #btn-login{
+        width: 13vw;
+        height: 6vh;
+        border-radius: 30px;
+        border-style: none;
+        margin-inline-start: calc(100% - 63%);
+       background-color: rgba(53, 113, 215, 0.849);
+        cursor: pointer;
+    }
+    #btn-login:hover{
+       
+    box-shadow: inset 10px 10px 12px #a7a7a7e5,
+                inset -10px -10px 12px #a7a7a7e5;
+    }
+    
+    a{
+        color: blue;
+        text-decoration: none;
+        
+    }
+    a:hover{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    #links{
+        margin-top: 2vh;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem ;
+        padding-top: 5%;
+    }
+    
+}
